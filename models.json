@@ -1,0 +1,151 @@
+{
+  "feesChecked": "2026-10-15",
+  "exchanges": {
+    "binance": {
+      "name": "Binance",
+      "quote": "USDT",
+      "product": "USDⓈ-M perpetual",
+      "model": {
+        "basis": "value",
+        "tierAt": "liq",
+        "mmAt": "liq",
+        "liqFee": 0,
+        "openFeeFromMargin": true
+      },
+      "fees": {
+        "maker": 0.0002,
+        "taker": 0.0005
+      },
+      "source": null
+    },
+    "okx": {
+      "name": "OKX",
+      "quote": "USDT",
+      "product": "USDT-margined perpetual swap",
+      "model": {
+        "basis": "qty",
+        "tierAt": "liq",
+        "mmAt": "liq",
+        "liqFee": 0.0005
+      },
+      "fees": {
+        "maker": 0.0002,
+        "taker": 0.0005
+      },
+      "source": "https://www.okx.com/help/v-tiered-maintenance-margin-ratio-rules"
+    },
+    "bybit": {
+      "name": "Bybit",
+      "quote": "USDT",
+      "product": "USDT perpetual",
+      "model": {
+        "basis": "value",
+        "tierAt": "liq",
+        "mmAt": "liq",
+        "liqFee": 0,
+        "extraFee": 0.00055
+      },
+      "fees": {
+        "maker": 0.0002,
+        "taker": 0.00055
+      },
+      "source": "https://www.bybit.com/en/help-center/article/Liquidation-Price-Calculation-under-Isolated-Mode-Unified-Trading-Account"
+    },
+    "gate": {
+      "name": "Gate",
+      "quote": "USDT",
+      "product": "USDT-margined perpetual",
+      "model": {
+        "basis": "value",
+        "tierAt": "liq",
+        "mmAt": "liq",
+        "liqFee": 0.0005
+      },
+      "fees": {
+        "maker": 0.0002,
+        "taker": 0.0005
+      },
+      "source": "https://www.gate.com/help/futures/futures/27724/liquidation-price-and-bankruptcy-price-calculations"
+    },
+    "bitget": {
+      "name": "Bitget",
+      "quote": "USDT",
+      "product": "USDT-M perpetual",
+      "model": {
+        "basis": "value",
+        "tierAt": "liq",
+        "mmAt": "liq",
+        "liqFee": 0.0006
+      },
+      "fees": {
+        "maker": 0.0002,
+        "taker": 0.0006
+      },
+      "source": "https://www.bitget.com/support/articles/12560603808759"
+    },
+    "hyperliquid": {
+      "name": "Hyperliquid",
+      "quote": "USDC",
+      "product": "perpetual",
+      "model": {
+        "basis": "value",
+        "tierAt": "liq",
+        "mmAt": "liq",
+        "liqFee": 0
+      },
+      "fees": {
+        "maker": 0.00015,
+        "taker": 0.00045
+      },
+      "source": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/liquidations"
+    },
+    "mexc": {
+      "name": "MEXC",
+      "quote": "USDT",
+      "product": "USDT-M perpetual",
+      "model": {
+        "basis": "qty",
+        "tierAt": "entry",
+        "mmAt": "entry",
+        "liqFee": 0
+      },
+      "fees": {
+        "maker": 0.0,
+        "taker": 0.0002
+      },
+      "source": "https://www.mexc.com/support/articles/360044646391"
+    },
+    "kucoin": {
+      "name": "KuCoin",
+      "quote": "USDT",
+      "product": "USDT-margined perpetual",
+      "model": {
+        "basis": "value",
+        "tierAt": "entry",
+        "mmAt": "liq",
+        "liqFee": 0.0006
+      },
+      "fees": {
+        "maker": 0.0002,
+        "taker": 0.0006
+      },
+      "source": "https://www.kucoin.com/support/26694703491737"
+    },
+    "bingx": {
+      "name": "BingX",
+      "quote": "USDT",
+      "product": "USDT-M perpetual",
+      "model": {
+        "basis": "value",
+        "tierAt": "entry",
+        "mmAt": "entry",
+        "liqFee": 0
+      },
+      "fees": {
+        "maker": 0.0002,
+        "taker": 0.0005
+      },
+      "source": "https://bingx.com/en/support/articles/16934295548441"
+    }
+  }
+}

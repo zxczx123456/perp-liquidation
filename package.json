@@ -1,0 +1,11 @@
+{
+  "name": "perp-liquidation",
+  "version": "0.1.0",
+  "description": "Liquidation price, position size, PnL and average entry for crypto perpetual futures, using each exchange's own formula and margin tiers (Binance, OKX, Bybit, Gate, Bitget, Hyperliquid, MEXC, KuCoin, BingX).",
+  "main": "index.js",
+  "files": ["index.js", "calc.js", "models.json"],
+  "scripts": { "test": "node test/test.js" },
+  "keywords": ["liquidation price", "perpetual futures", "crypto", "binance", "okx", "bybit", "hyperliquid", "margin tiers", "trading", "calculator"],
+  "homepage": "https://perptiers.com",
+  "license": "MIT"
+}
